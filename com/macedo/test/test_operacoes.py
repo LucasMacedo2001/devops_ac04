@@ -7,7 +7,7 @@ class TestOperacoes(TestCase):
 		self.operacoes = Operacoes()
 		
 	def test_Por3(self):
-		self.assertEqual(self.operacoes.multiplicacaoPor3(5), 15, "Should be 15")
+		self.assertEqual(self.operacoes.multiplicacaoPor3(5),15) 
 		
 	def test_Por7(self):
-		self.assertEqual(self.operacoes.multiplicacaoPor7(4), 28, "Should be 28")
+		self.assertEqual(self.operacoes.multiplicacaoPor7(4),28)
